@@ -1,0 +1,14 @@
+/*** cmd ***/
+SET PATH="C:\Program Files\Java\jdk-9.0.1\bin";%PATH%
+cd <the folder which has java files>
+javac *.java
+start rmiregistery
+
+/*** Server ***/
+java Server
+
+
+/*** Client ***/
+java Client
+
+Not:jdk 9.0.1 ile derlenmiþtir, geeksforgeeks den faydalanýlmýþtýr.
